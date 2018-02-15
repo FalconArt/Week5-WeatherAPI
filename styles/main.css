@@ -22,6 +22,7 @@ html{
   -moz-background-size: auto;
   -o-background-size: auto;
   background-size: auto;
+  text-align: center;
 }
 
 h1{
@@ -40,11 +41,11 @@ h1{
 }
 
 #checkBtn{
-	-webkit-animation: FadeInUp .9s ease-out;
-	-moz-animation: FadeInUp .9s ease-out;
-	-ms-animation: FadeInUp .9s ease-out;
-	-o-animation: FadeInUp .9s ease-out;
-	animation: FadeInUp .9s ease-out;
+	-webkit-animation: FadeInUp 2s ease-out;
+	-moz-animation: FadeInUp 2s ease-out;
+	-ms-animation: FadeInUp 2s ease-out;
+	-o-animation: FadeInUp 2s ease-out;
+	animation: FadeInUp 2s ease-out;
 	text-align: center;
 	font-family: "Bahn";
 	margin-top: 10%;
@@ -56,7 +57,6 @@ h1{
 	cursor: pointer;
 	border-radius: 25px;
 	padding:2%;
-	margin-left:42%;
 }
 
 #checkBtn:hover{
@@ -67,4 +67,44 @@ h1{
 
 #checkBtn:focus{
 	outline:0;
+}
+
+#weatherIcon{
+	display: none;
+	margin: auto;
+}
+
+#inputZip{
+	width:20%;
+	font-family: "Couture";
+	border-radius: 10px;
+	font-size: 1.7vw;
+	text-align: center;
+	color:navy;
+}
+
+#cityName{
+	font-family: "Bahn";
+	font-size: 2.5vw;
+	color: white;
+}
+
+#temp{
+	font-family: "Bahn";
+	font-size: 2.5vw;
+	color: white;
+}
+
+#conditions{
+	font-family: "Bahn";
+	font-size: 2vw;
+	color: white;
+	opacity: .8;
+}
+
+#time{
+	font-family: "Bahn";
+	font-size: 1.5vw;
+	color: white;
+	opacity: .8;
 }
